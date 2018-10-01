@@ -1,5 +1,6 @@
 def unsafe?(speed)
-  speed > 60 ? true : false
+  case speed
+  when > 60 
 end
 
 
